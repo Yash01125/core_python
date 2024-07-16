@@ -84,13 +84,12 @@ for i in range(1,10):
 for i in range(9,0,-1):
     print(" "*(9-i)," *"*i)
     
-'''
+
 j=1
 for i in range(65,73):
     print(chr(i)*j)
     j=j+1
-
-
+'''
 
 
 
