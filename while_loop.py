@@ -1,9 +1,9 @@
-'''n=int(input("Enter the Number:"))
+n=int(input("Enter the Number:"))
 
 while n>0:
     print("hello...")
     n=n-1
-'''
+
 print("------------------------------------------")
 
 n=int(input("Enter the Number:"))
