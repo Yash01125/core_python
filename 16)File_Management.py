@@ -4,7 +4,7 @@ file.close()
 print("File written successfully.")
 print("------------------------------------------------------")
 file=open("yash.txt","r")
-print(file.read()) yash
+print(file.read())
 file.close()
 print("------------------------------------------------------")
 file=open("yash.txt","a")
