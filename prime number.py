@@ -1,11 +1,10 @@
 n=int(input("Enter N:"))
-
-if n%2!=0:
-    for i in range(3,int(n/2)+1,2):
-        if n%i==0:
-            print(n,"is not prime")
-            break
-    else:
-        print(n,"is prime")
-else:
-    print(n,"is not prime")
+l=[]
+for i in range(1,n+1):
+    if i%2!=0:
+        for t in range(3,int(i/2)+1,2):
+            if i%t==0:
+                break
+        else:
+            l.append(i)
+print(l)
