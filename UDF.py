@@ -39,7 +39,7 @@ def prime(n):
                 l.append(i)
     print(l)
 
-oddeven(59)
+'''oddeven(59)
 print('------------------------------------------------------')
 maxof2(10,20)
 print('------------------------------------------------------')
@@ -48,3 +48,4 @@ print('------------------------------------------------------')
 fibonaki(n = int(input("Enter the number for fibonaki : ")))
 print('------------------------------------------------------')
 prime(n = int(input("Enter Number for prime:")))
+'''
