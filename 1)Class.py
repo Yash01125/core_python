@@ -1,12 +1,12 @@
-class a:
+class A:
     def ll(s):
-        print("class a")
-class b(a):
+        print("clAss A")
+class b(A):
     def ll2(s):
-        print("class b")
-class c(a):
+        print("clAss b")
+class c(A):
     def ll3(s):
-        print("class 3")
+        print("clAss 3")
 x=c()
 x.ll()
-x.ll2()
+
